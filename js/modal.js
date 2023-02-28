@@ -40,7 +40,7 @@ $(document).ready(function () {
 document.addEventListener("DOMContentLoaded", Datee);
 
 function Datee() {
-  var msInDay = 86400000, counterLength = 33, months, countryName = 'ru', isAbbreviated = false, localDate = new Date();
+  var msInDay = 86400000, counterLength = 33, months, countryName = 'ro', isAbbreviated = false, localDate = new Date();
   switch (countryName) {
     case 'it':
       months = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre'];

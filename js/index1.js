@@ -19,13 +19,13 @@ function tick() {
         o = time - 60 * e;
     0 == e && 0 == o && clearInterval(intr), (o = o >= 10 ? o : "0" + o), $("#min").html("0" + e), $("#sec").html(o);
 }
-$(".close-popup, .pop-up-button").click(function (e) {
+/*$(".close-popup, .pop-up-button").click(function (e) {
     e.preventDefault(), $(".spin-result-wrapper").fadeOut();
     let o = $("#roulette");
     o || (o = $("#order_form"));
     let t = o.offset().top;
     $("body,html").animate({ scrollTop: t }, 800);
-});
+});*/
 let doors = document.querySelectorAll(".door"),
     doorSales = document.querySelectorAll(".door__sales"),
     doorWrapper = document.querySelector(".door__wrapper"),
